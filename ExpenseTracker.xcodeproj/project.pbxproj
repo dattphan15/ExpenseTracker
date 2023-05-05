@@ -14,6 +14,7 @@
 		470688E32A041302003677BA /* ExpenseTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470688E22A041302003677BA /* ExpenseTrackerTests.swift */; };
 		470688ED2A041302003677BA /* ExpenseTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470688EC2A041302003677BA /* ExpenseTrackerUITests.swift */; };
 		470688EF2A041302003677BA /* ExpenseTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470688EE2A041302003677BA /* ExpenseTrackerUITestsLaunchTests.swift */; };
+		470688FC2A041C76003677BA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470688FB2A041C76003677BA /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		470688E82A041302003677BA /* ExpenseTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExpenseTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		470688EC2A041302003677BA /* ExpenseTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTrackerUITests.swift; sourceTree = "<group>"; };
 		470688EE2A041302003677BA /* ExpenseTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		470688FB2A041C76003677BA /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				470688D12A0412FF003677BA /* ExpenseTrackerApp.swift */,
 				470688D32A0412FF003677BA /* ContentView.swift */,
+				470688FB2A041C76003677BA /* Extensions.swift */,
 				470688D52A041302003677BA /* Assets.xcassets */,
 				470688D72A041302003677BA /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				470688D42A0412FF003677BA /* ContentView.swift in Sources */,
+				470688FC2A041C76003677BA /* Extensions.swift in Sources */,
 				470688D22A0412FF003677BA /* ExpenseTrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
