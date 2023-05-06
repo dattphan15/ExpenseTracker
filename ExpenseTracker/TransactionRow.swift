@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct TransactionRow: View {
-    var transation: Transaction
+    var transaction: Transaction
     
     var body: some View {
         HStack(spacing: 20) {
