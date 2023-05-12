@@ -21,11 +21,18 @@ struct ContentView: View {
                         .bold()
                     
                     // MARK: Chart
-                    LineChart()
-                        .data(demoData)
-                        .chartStyle(ChartStyle(backgroundColor: Color.systemBackground,
-                                               foregroundColor: ColorGradient(Color.icon.opacity(0.4), Color.icon)))
-                        .frame(height: 300)
+                    CardView {
+                        VStack {
+                            ChartLabel("$900", type: .title)
+                            LineChart()
+                        }
+                        .background(Color.systemBackground)
+                        }
+                    
+                    .data(demoData)
+                    .chartStyle(ChartStyle(backgroundColor: Color.systemBackground,
+                                           foregroundColor: ColorGradient(Color.icon.opacity(0.4), Color.icon)))
+                    .frame(height: 300)
                     
                     // MARK: Transaction List
                     RecentTransactionList()
